@@ -1,0 +1,29 @@
+str can be = 'hello', "hello", '''hello''', """hello"""
+
++ : слияние строк
+a = "hello"
+b = "world"
+c = a + b
+print(c) - "helloworld"
+
+
+* : - умножение числа или дублирование строки
+a = "D"
+b = "G"
+c = a + b
+print(c*3) - "DGDGDG"
+
+
+len : - длина строки
+a = "Hello"
+print(len(a)) - 5
+
+
+upper : - перевести в верхний регистр
+m = "abc"
+print(m.upper()) - "ABC"
+
+
+lower : - перевести в нижний регистр
+s = "ABC"
+print(s.lower()) - "abc"

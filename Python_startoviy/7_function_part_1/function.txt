@@ -1,0 +1,10 @@
+# print - funkciyi dlya vivoda soobsheniy v konsol.
+# len - funkciya, kotoraya vozvrashaet dliny obekta.
+# str - preobrazovanie v stroky.
+# int - preobrazovanie v celoe chislo.
+# float - preobrazovanie v ne celoe chislo.
+# list - preobrazovanie v spisok.
+# dict - preobrazovanie v slovar.
+# set - preobrazovanie v mnozhestvo.
+# tuple - preobrazovanie v kortezh.
+# bool - preobrazovanie v True/False.

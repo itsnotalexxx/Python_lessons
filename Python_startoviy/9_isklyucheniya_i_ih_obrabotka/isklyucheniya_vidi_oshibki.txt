@@ -1,0 +1,18 @@
+try:
+	...
+except:
+	...
+
+or
+
+try:
+	...
+except BaseException:
+	...
+
+BaseException - otlavlivaet vse oshibki
+NameError - ne naydeno peremennuyu s takim imenem.
+TypeError - neverniy tip obyekta, k kotorome primenyaetsya operaciya.
+ValueError - oshibka, svyazannaya so znacheniem argumenta.
+AssertionError - virazhenie v funkciyi assert lozhno.
+ImportError - ne udalos importirovat modulya ili ego atributa.
