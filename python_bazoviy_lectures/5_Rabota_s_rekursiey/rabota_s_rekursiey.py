@@ -150,16 +150,49 @@ print("---------------")
 # Zadacha 2:
 # Dano naturalnoe chislo N, vivesti vse naturalnie chisla ot 1 do N.
 
+
+def values(n, current=1):
+    if current <= n:
+        print(current)
+        values(current=current + 1, n=n)
+
+
+values(10)
+
 print("---------------")
 
 # Zadacha 3:
 # Dano naturalnoe chislo N. Vivedite slovo YES, esli chislo N yavlyaetsya tochnoi ctepeniyu dvoiki,
 # ili slovo NO v protivnom sluchai.
 
+
+def check_pow_2(n):
+    if n == 1:
+        print("YES")
+    else:
+        if n % 2 == 0:
+            check_pow_2(n // 2)
+        else:
+            print("NO")
+
+
+check_pow_2(17)
+
 print("---------------")
 
 # Zadacha 4:
 # Dano naturalnoe chislo N. Vichislite summu ego cifr.
+
+
+def sum_val(num, res=0):
+    if not num:
+        return res
+    res += num % 10
+    num //= 10
+    return sum_val(num, res)
+
+
+print(sum_val(125))
 
 
 print("====================")
