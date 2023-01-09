@@ -12,3 +12,20 @@ d = {
         "2": [],
     }
 }
+
+li = [char for char in "1_2, 40_5, 5_32"]
+print(li)
+
+iter = {e.split("_")[0]: e.split("_")[1] for e in li}
+print(iter)
+
+
+print(li)
+
+
+l = li.split("_")
+print(l)
+
+
+def func(a, b):
+    return lambda a, b: a + b
